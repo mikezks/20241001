@@ -1,0 +1,6 @@
+{
+	"miles-v1": "http://localhost:4201/v1/remoteEntry.json",
+	"miles": "http://localhost:4201/v2/remoteEntry.json",
+	"miles": "http://localhost:4201/v3/remoteEntry.json",
+	"miles": "http://localhost:4201/remoteEntry.json",
+}
