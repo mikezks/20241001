@@ -52,14 +52,14 @@ export class FlightCardComponent {
   blink = injectCdBlink();
 
   item = input.required<Flight>();
+  itemChange = output<Flight>();
   selected = model(false);
-  delayTrigger = output<Flight>();
 
   toggleSelection(): void {
     this.selected.update(currentState => !currentState);
   }
 
   delay(): void {
-    this.delayTrigger.emit(this.item());
+    this.itemChange.emit(this.item());
   }
 }
